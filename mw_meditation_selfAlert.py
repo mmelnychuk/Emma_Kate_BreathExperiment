@@ -20,7 +20,7 @@ try:
         task_data = json.load(f)
         if task_data:
             participant_id = task_data["participant_id"]
-            total_time = task_data["task_1_time"]
+            total_time = task_data["task_2_time"]
             print(task_data)
 except:
     participant_id = "participant"
